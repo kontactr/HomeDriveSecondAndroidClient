@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HomeDriveSecond</string>
+    <string name="APP_ID">ID</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">CLIENT_TOKEN</string>
+    <string name="ak_login_protocol_scheme">PROTOCOL</string>
+    <string name="homedrive">HomeDrive</string>
+
+</resources>

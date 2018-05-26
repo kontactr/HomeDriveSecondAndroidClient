@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_marginLeft="21dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/regi_et_vali"
+        android:hint="We Mailed You..."
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/regi_et_vali"
+        android:id="@+id/regi_resend_btn_vali"
+        android:text="Resend V Code"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        />
+
+
+</RelativeLayout>

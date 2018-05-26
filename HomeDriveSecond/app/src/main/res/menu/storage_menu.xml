@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".StorageActivity">
+
+    <item
+        android:title="New Directory"
+        android:id="@+id/sto_menu_cre_dir"
+        app:showAsAction="never" />
+
+    <item
+        android:title="Upload Files"
+        android:id="@+id/sto_menu_up_file"
+        app:showAsAction="never" />
+
+    <item
+        android:title="Download Files"
+        android:id="@+id/sto_menu_dow_file"
+        app:showAsAction="never" />
+
+    <item
+        android:title="Delete Files"
+        android:id="@+id/sto_menu_dele_file"
+        app:showAsAction="never" />
+
+</menu>

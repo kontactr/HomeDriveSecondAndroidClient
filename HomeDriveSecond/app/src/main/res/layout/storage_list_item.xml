@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_height="wrap_content">
+
+
+    <CheckBox
+        android:background="@android:color/black"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:lines="1"
+        android:ellipsize="end"
+        android:layout_marginRight="15dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:paddingRight="40dp"
+        android:id="@+id/list_item"
+        tools:text = "File / Folder Name"
+        android:paddingLeft="30dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/storage_goto"
+        android:text="GoTo"
+
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/list_item"
+
+
+        />
+
+
+
+
+</RelativeLayout>

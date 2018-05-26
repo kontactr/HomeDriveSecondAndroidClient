@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yash.homedrivesecond.LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_toLeftOf="@id/login_tv_app"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/login_tv_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/homedrive" />
+
+    <TextView
+        android:id="@+id/login_tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/login_tv_app"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:text="UserName" />
+
+    <TextView
+        android:id="@+id/login_tv_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/login_tv_username"
+        android:layout_alignStart="@+id/login_tv_username"
+        android:layout_below="@+id/login_tv_username"
+        android:layout_marginTop="60dp"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/login_et_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/login_tv_app"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter UserName" />
+
+    <EditText
+        android:id="@+id/login_et_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/login_tv_pass"
+        android:layout_alignBottom="@+id/login_tv_pass"
+        android:layout_alignLeft="@+id/login_et_username"
+        android:layout_alignStart="@+id/login_et_username"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login_button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_et_pass"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="55dp"
+        android:text="LogIn" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Register"
+        android:layout_toRightOf="@id/login_button_login"
+        android:id="@+id/btn_register"
+        android:layout_below="@id/login_et_pass"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content" />
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Advance Func"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:id="@+id/adv_func"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="70dp"
+       />
+
+</RelativeLayout>
